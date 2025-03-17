@@ -11,4 +11,4 @@ class Course(models.Model):
     instructor = models.CharField(max_length=100)
 
     def __str__(self):
-        return self.title
+        return str(self.title)
